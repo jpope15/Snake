@@ -1,0 +1,390 @@
+/*
+
+#include <SFML/Graphics.hpp>
+#include <ctime>
+#include <iostream>
+#include <list>
+using namespace std;
+
+//run using clang++ *.cpp -o snake -lsfml-graphics -lsfml-window -lsfml-system
+
+const int X_SIZE = 30;
+const int Y_SIZE = 30;
+const float SQUARE_PIXELS = 40.0;
+
+class Tile;
+class Snake;
+class Index_out_of_bounds {};
+
+enum type { EMPTY = 0, SNAKE_HEAD, SNAKE_SEGMENT, FOOD, NUMBER_OF_TYPES};
+enum movement_dir { UP = 0, DOWN, RIGHT, LEFT, NONE, NUMBER_OF_DIR};
+
+typedef enum type Tile_type;
+typedef enum movement_dir Movement_dir;
+
+class World {
+public:
+    World(int max_food_items = 6, int x = X_SIZE, int y = Y_SIZE);
+    vector<Tile*>& operator[](int index);
+    const vector<Tile*>& operator[](int index) const;
+    void display(sf::RenderWindow& window);
+    int get_width() const { return grid.size(); }
+    void turn(Movement_dir dir);
+    void turn();
+    void spawn_new_food();
+    void add_snake_segment();
+    void check_collisions();
+
+    void run();
+private:
+    vector<vector<Tile*> > grid;
+    vector <Snake*> snake;
+    list <Movement_dir> directions; //corresponds to the body
+};
+
+
+class Tile {
+public:
+    Tile(int x = 0, int y = 0, float radius = SQUARE_PIXELS, int point_count = 30) : x(x), y(y), shape(radius, point_count) {}
+    virtual void display(sf::RenderWindow& window) = 0;
+    static void tile_swap(Tile*& pTile1, Tile*& pTile2){
+        swap(pTile1->x, pTile2->x);
+        swap(pTile1->y, pTile2->y);
+        swap(pTile1, pTile2);
+        pTile1->fix_pos();
+        pTile2->fix_pos();
+    }
+    virtual void turn(World& w, Movement_dir dir) {}
+    virtual void turn(World& w) {}
+    int get_x() { return x; }
+    int get_y() { return y; }
+    virtual Tile_type type() = 0;
+
+protected:
+    int x;
+    int y;
+    sf::CircleShape shape;
+    void fix_pos(){
+        shape.setPosition(x*SQUARE_PIXELS, y*SQUARE_PIXELS);
+    }
+};
+
+class Empty : public Tile {
+public:
+    Empty(int x = 0, int y = 0) : Tile(x, y, (SQUARE_PIXELS-2)/2, 3){
+        shape.setFillColor(sf::Color::White);
+        shape.setPosition(sf::Vector2f(x * SQUARE_PIXELS, y * SQUARE_PIXELS));
+    }
+    virtual void display(sf::RenderWindow& window) { window.draw(shape); }
+    void turn(World& w, Movement_dir dir) {}
+    Tile_type type() { return EMPTY; }
+
+private:
+};
+
+class Snake : public Tile {
+public:
+    Snake (int x = 0, int y = 0, Movement_dir dir = NONE) : Tile(x, y, (SQUARE_PIXELS-2)/2, 4) {
+        shape.setFillColor(sf::Color::Green);
+        shape.setPosition(x*SQUARE_PIXELS, y*SQUARE_PIXELS);
+        current_dir = dir;
+    }
+    virtual void display(sf::RenderWindow& window) { window.draw(shape); }
+    virtual void turn(World& w, Movement_dir dir) {}
+    virtual Tile_type type() = 0;
+    Movement_dir get_dir() { return current_dir; }
+
+protected:
+};
+
+//maybe a vector of snake_segments would be better
+class Snake_Head : public Snake {
+public: 
+    Snake_Head(int x = 0, int y = 0, Movement_dir dir = NONE) : Snake(x, y, dir){}
+    virtual void turn(World& w, Movement_dir dir) {        
+        switch(dir) {
+            case UP:
+            /* 
+                if (y == 0) exit(0);
+                if (y > 0){
+                    if (w[x][y-1]->type() == FOOD) {
+                        w[x][y-1] = new Empty(x, y-1);
+                        w.spawn_new_food();
+                        w.add_snake_segment();
+                    }
+                    */
+                    w[x][y] = new Empty(x, y);
+                    y=y-1;
+                    w[x][y] = this;   
+                    fix_pos();
+                //}
+                break;
+            case DOWN:
+            /*
+                if (y == w[x].size()-1) exit(0);
+                if (y < w[x].size()-1){
+                    if (w[x][y+1]->type() == FOOD) {
+                        w[x][y+1] = new Empty(x, y+1);
+                        w.spawn_new_food();
+                        w.add_snake_segment();
+                    }
+                    */
+                    w[x][y] = new Empty(x, y);
+                    y = y+1;
+                    w[x][y] = this;   
+                    fix_pos();
+                //}
+           
+                break;
+            case LEFT:
+            /*
+                if (x == 0) exit(0);
+                if (x > 0){
+                    if (w[x-1][y]->type() == FOOD) {
+                        w[x-1][y] = new Empty(x-1, y);
+                        w.spawn_new_food();
+                        w.add_snake_segment();
+                    }
+                    */
+                    w[x][y] = new Empty(x, y);
+                    x = x-1;
+                    w[x][y] = this;   
+                    fix_pos();
+                //} 
+                break;
+            case RIGHT:
+            /*
+                if (x == w.get_width() - 1) exit(0);
+                if (x < w.get_width()-1){
+                    if (w[x+1][y]->type() == FOOD) {
+                        w[x+1][y] = new Empty(x+1, y);
+                        w.spawn_new_food();
+                        w.add_snake_segment();
+                    }
+                    */
+                    w[x][y] = new Empty(x, y);
+                    x = x+1;
+                    w[x][y] = this;   
+                    fix_pos();
+                //}
+                break;
+            default: 
+                break;
+        }
+    }
+    virtual Tile_type type() { return SNAKE_HEAD; }
+private:
+};
+
+class Snake_Segment : public Snake {
+public:
+    Snake_Segment(int x = 0, int y = 0, Movement_dir dir = NONE, Snake* next = nullptr) : Snake(x, y, dir), next(next) {}
+    Tile_type type() { return SNAKE_SEGMENT; }
+
+    void turn(World& w, Movement_dir dir) {
+
+    }
+private:
+};
+
+class Food : public Tile {
+    public:
+        Food(int x = 0, int y = 0): Tile(x, y, (SQUARE_PIXELS - 20)/2) {
+            shape.setFillColor(sf::Color::Yellow);
+            shape.setPosition(x * SQUARE_PIXELS, y* SQUARE_PIXELS);
+        }
+        virtual void display(sf::RenderWindow& window) { window.draw(shape); }
+        Tile_type type() { return FOOD; }
+    private:
+};
+
+World::World(int max_food_items, int x, int y) {
+    srand(time(0));
+    int num_food = rand () % max_food_items + 1;
+    vector<Tile*> column(y);
+
+    for (int i = 0; i < x; i++){
+        grid.push_back(column);
+    }
+    for (int r = 0; r < x; r++){
+        for (int c = 0; c < y; c++){
+            if (max_food_items > 0) {
+                grid[r][c] = new Food(r, c);
+                max_food_items--;
+            } else {
+                grid[r][c] = new Empty(r, c);
+            }
+        }
+    }
+    grid[X_SIZE-1][Y_SIZE-1] = new Snake_Head(X_SIZE-1, Y_SIZE-1);
+    snake.push_back(static_cast<Snake*>(grid[X_SIZE-1][Y_SIZE-1]));
+
+    int x1, x2;
+    int y1, y2;
+    
+    
+    for (int i = 0; i < 100000; i++){
+        x1 = rand() % x;
+        x2 = rand() % x;
+        y1 = rand() % y;
+        y2 = rand() % y;
+        
+        Tile::tile_swap(grid[x1][y1], grid[x2][y2]);
+    }
+    
+}
+
+void World::display(sf::RenderWindow& window){
+    for (int r = 0; r < grid.size(); r++){
+        for (int c = 0; c < grid[r].size(); c++){
+            grid[r][c]->display(window);
+        }
+    }
+}
+
+vector<Tile*>& World::operator[](int index){
+    if (index >= grid.size())
+        {
+            throw Index_out_of_bounds();
+        }
+    return grid[index];
+}
+const vector<Tile*>& World::operator[](int index) const {
+    if (index >= grid.size())
+        {
+            throw Index_out_of_bounds();
+        }
+    return grid[index];
+}
+
+void World::turn(Movement_dir dir) {
+    snake.at(0)->turn(*this, dir);
+    list<Movement_dir>::iterator i_dir = directions.end();
+
+    for (int i = snake.size()-1; i > 0, i_dir != directions.begin(); i--) {
+
+            snake.at(i)->turn(*this, *i_dir);
+        }
+    }
+}
+
+void World::turn() {
+    snake.at(0)->turn(*this, dir);
+    list<Movement_dir>::iterator i_dir = directions.end();
+
+    for (int i = snake.size()-1; i >= 0; i--) {
+        snake.at(i)->turn(*this);
+    }
+}
+
+void World::add_snake_segment() {
+    Snake* pTile = snake[snake.size()-1];
+
+    switch (directions[directions.size()-1]) {
+        case UP:
+            temp_x = pTile->get_x();
+            temp_y = pTile->get_y()+1;
+            break;
+        case DOWN:
+            temp_x = pTile->get_x();
+            temp_y = pTile->get_y()-1;
+            break;
+        case LEFT:
+            temp_x = pTile->get_x()+1;
+            temp_y = pTile->get_y();
+            break;
+        case RIGHT:
+            temp_x = pTile->get_x()-1;
+            temp_y = pTile->get_y();
+            break;
+        default:
+            temp_x = 0;
+            temp_y = 0;
+            break;
+    }
+    
+    Snake* pSnake = snake[snake.size()-1];
+    grid[temp_x][temp_y] = new Snake_Segment(temp_x, temp_y, pTile->get_dir(), pSnake);
+    snake.push_back(static_cast<Snake*>(grid[temp_x][temp_y]));
+    cout << "adding new snake segement" << endl;
+    cout << "new snake size: " << snake.size() << endl;
+    for (int i = 0; i < snake.size(); i++) {
+        cout << "segment " << i << "(" << snake[i]->get_x() << ", " << snake[i]->get_y() << ")" << endl;
+    }
+}
+
+void World::spawn_new_food() {
+    int new_x = rand() % (X_SIZE-1);
+    int new_y = rand() % (Y_SIZE-1);
+    while (grid[new_x][new_y]->type() != EMPTY) {
+        new_x = rand() % (X_SIZE-1);
+        new_y = rand() % (Y_SIZE-1);
+    }
+    grid[new_x][new_y] = new Food(new_x, new_y);
+}
+
+void World::check_collisions() {
+    for (int i = 1; i < snake.size(); i++) {
+        if (snake[0]->get_x() == snake[i]->get_x() &&
+            snake[0]->get_y() == snake[i]->get_y()) {
+                exit(0);
+            }
+    }
+}
+void World::run() {
+    sf::RenderWindow window(sf::VideoMode(1200, 1200), "Snake");
+    int count = 0;
+    while (window.isOpen()){
+        sf::Event event;
+        while (window.pollEvent(event)){
+            switch (event.type){
+                case sf::Event::Closed:
+                    window.close();
+                    break;
+                case sf::Event::KeyReleased:
+                    switch(event.key.code){
+                        case sf::Keyboard::W:
+                        case sf::Keyboard::Up:  //call appropriate function
+                            turn(UP);
+                            break;
+                        case sf::Keyboard::S:
+                        case sf::Keyboard::Down:
+                            turn(DOWN);
+                            break;
+                        case sf::Keyboard::A:
+                        case sf::Keyboard::Left:
+                            turn(LEFT);
+                            break;
+                        case sf::Keyboard::D:
+                        case sf::Keyboard::Right:
+                            turn(RIGHT);
+                            break;
+                        default:
+                            break;
+                    }
+                    break;
+                default:
+                    break;
+            }
+        }
+        count++;
+        if (count == 600 ) { 
+            turn();         //default so the snake will go in the last direction you inputted
+            count = 0;
+        }
+        check_collisions();
+
+        window.clear();
+        display(window);
+        window.display();
+    }
+}
+
+
+int main() {
+
+    World w;
+    w.run();
+    return 0;
+}
+*/

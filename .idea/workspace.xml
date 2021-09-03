@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="snake" targetName="snake" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0b3a5bf1-a6f2-46c3-aba8-4d2a4f9cdf8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/bash_scripts/rjcount.bash" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/bash_scripts/romeo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/average.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/daily25.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/daily26" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/daily26.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/daily27.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/daily28.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/daily30.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/quiz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/quiz_test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/quiz_test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/dailys/quiz_test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/firstproject/daily25.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/labs/lab2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/programs/average.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/programs/program4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1010/programs/quiz.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/checkpoints/lab7_checkpoint1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/generic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/generic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/hangman.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/hangman.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/status.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/tree.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/tree.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/challenges/challenge1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/challenges/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily1/daily1.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily1/reverse.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/827043978939596831.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/daily10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/midsummer.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/muchado.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/output.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/phonetic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/romeo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/sex.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/test10.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/treeset.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/treeset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily11/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily11/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily11/priority_queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily11/priority_queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/driver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/generic.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/generic.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/hashset.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/hashset.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/my_string.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/phonetic.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/romeo.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/status.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/test.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily2/daily2.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily2/lshift.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily3/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily3/daily3.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily3/flags.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily4/daily4.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily4/flags.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily5/daily5.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily5/flags.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily6/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily6/day6.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily6/rational.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily6/rational.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily7/daily7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily7/day7.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/email.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/onlinejudge.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/stacks.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/stacks.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily8/status.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/alphabet.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/alphabet_sorted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/day9.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/sort.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/sort.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/notes/big-oh-notation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/notes/hash_tables.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/notes/heaps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/notes/priority_queues.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/notes/sorting.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/notes/test2_notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/notes/trees.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/bit_driver" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/bit_flags.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/bit_flags.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/p1tests.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/status.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program1/tests" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program2/email.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program2/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program2/main" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program2/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program2/onlinejudge.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program2/queue.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program2/queue.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/check2billion" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/check2billion.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/generate_2_billion.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/intset.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/num_generator" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/set" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/Syllabus COMP2010 Adams Summer2021.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/classes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/exam1-topics.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs.xcodeproj/project.pbxproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs.xcodeproj/project.xcworkspace/xcuserdata/jamespope.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/ResourcePath.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/ResourcePath.mm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/blobs-Info.plist" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/cute_image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/nice_music.ogg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs/sansation.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/comp1remake.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/files.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/game.cpp/game.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/lists+templates.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/numbers1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/operator-overloading.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/stringstream.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/trees.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/examples/vectors.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/iostream.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/maps.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/templates.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Notes/vectors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quiz Practice 1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Quiz Practice 2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/daily6/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/daily6/daily6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day1/day1.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day10/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day10/bigint.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day10/bigint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day10/bigint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day10/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day2/daily2.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day3/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day3/day3.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day4/daily4.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day5/daily5.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day7/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day7/bigint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day7/bigint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day7/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day8/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day8/bigint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day8/bigint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day8/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day9/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day9/bigint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day9/bigint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../dailys/day9/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/.vscode/settings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/blackjack.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/card.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/card.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/deck.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/deck.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/ideas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/player.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../blackjack/player.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/snake.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/DependInfo.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/build.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/cmake_clean.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/depend.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/flags.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/link.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/snake.dir/progress.make" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/snake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/snake.cbp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/EECE 2650 Logic Design Assignment 1(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/EECE 2650 Logic Design Assignment 2.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/EECE 2650 Logic Design Assignment 3.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/EECE 2650 Logic Design Assignment 4.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Schematic _ 3_D.cct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Schematic_1(1).cct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Schematic_2.cct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Schematic_3_JK.cct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Schematic_4.cct" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.10.01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.10.16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.10.31.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.10.43.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.10.54.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.11.05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.11.12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.11.26.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.11.35.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-27 at 03.11.41.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-29 at 16.45.50.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-29 at 16.46.03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Screen Shot 2019-07-29 at 16.46.13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_03.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_04.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_05.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_06.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_07.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_08.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_09.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Labs/Slides_Chpt_11.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Answers.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 02 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 03 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 04 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 05 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 06 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 07 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 08 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 09 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 10 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /16265 Chapter 11 Problems.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_01.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_02.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_03.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_04.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_05.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_06.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_07.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_08.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_09.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_10.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /Chpt_11.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /EECE2650 Logic Design Syllabus(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Textbook + syllabus + textbook solutions /How to use LogicWorks.PDF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 1a.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 1b.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 1c.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 2a(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 2b(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 2c(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 3a(2).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 3b(2).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 3c(2).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 4a(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 4b(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 4c(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 5a(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 5b(1).pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Logic Design/Weekly Readings/Logic Design Week 5c(1).pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/dictionary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/empty.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/programs/program3/intset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/empty2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notes/examples/sfml-tutorial.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/generic.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/lab3_checkpoint1.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/checkpoints/lab3_checkpoint1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/lab6_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/checkpoints/lab6_test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/checkpoints/lab7.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/my_string.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily12/my_string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/my_string.c~" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/my_string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/my_string.h~" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/my_string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/simple.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/string_driver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/test_def.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/unit_test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/unit_test.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/HANGMAN/unit_test.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/lab3_checkpoint1.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/my_string.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/my_string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/my_string.c~" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily9/my_string.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/my_string.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/my_string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/my_string.h~" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/dailys/daily10/my_string.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/test_def.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/test_def.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/unit_test.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/unit_test.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/unit_test.h" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1020/HANGMAN/unit_test.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1010/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../firstproject/helloworld.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1010/firstproject/helloworld.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../firstproject/w3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1010/labs/lab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../firstproject/week3.c" beforeDir="false" afterPath="$PROJECT_DIR$/../../../COMP1010/firstproject/week3.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../firstproject/week3.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice/practice.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice/practice.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice/practice.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice/practice.xcodeproj/project.xcworkspace/xcuserdata/jamespope.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice/practice.xcodeproj/xcuserdata/jamespope.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/../../Notes/examples/blobs/blobs.xcodeproj/xcuserdata/jamespope.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice/w3.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../practice/w3.h" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1uGdbooJWXVyk4vYVFCuKXxwhFP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="cmake.loaded.for.project" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="snake" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="snake" TARGET_NAME="snake" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="snake" RUN_TARGET_NAME="snake">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0b3a5bf1-a6f2-46c3-aba8-4d2a4f9cdf8d" name="Default Changelist" comment="" />
+      <created>1624295934086</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1624295934086</updated>
+      <workItem from="1624295935397" duration="3769000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

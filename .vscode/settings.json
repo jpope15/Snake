@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "type_traits": "cpp",
+        "iostream": "cpp",
+        "utility": "cpp",
+        "atomic": "cpp",
+        "ios": "cpp",
+        "fstream": "cpp"
+    }
+}

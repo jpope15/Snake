@@ -29,7 +29,7 @@ void World::run_single_player(int& score) {
 
     sf::Texture background;
     sf::Sprite backgroundImage;
-    if (!background.loadFromFile("snake.png")) 
+    if (!background.loadFromFile("assets/snake.png")) 
         cout << "error opening background file" << endl;
     backgroundImage.setTexture(background);
 
@@ -77,7 +77,7 @@ void World::run_two_player(int& p1Score, int& p2Score) {
 
     sf::Texture background;
     sf::Sprite backgroundImage;
-    if (!background.loadFromFile("snake.png")) 
+    if (!background.loadFromFile("assets/snake.png")) 
         cout << "error opening background file" << endl;
     backgroundImage.setTexture(background);
 
@@ -284,7 +284,7 @@ Game_Type World::intro_gui() {
     sf::RenderWindow window( sf::VideoMode( X_PIXELS, Y_PIXELS ), "Please Choose an Option");
 
     sf::Font font;
-    if ( !font.loadFromFile( "Tourney-Thin.ttf" ) )
+    if ( !font.loadFromFile( "assets/Tourney-Thin.ttf" ) )
         std::cout << "Can't find the font file" << std::endl;
 
     sf::Text singlePlayer;
@@ -351,7 +351,7 @@ bool World::display_death_screen(int score) {
     sf::RenderWindow window( sf::VideoMode( X_PIXELS, Y_PIXELS ), "GAME OVER");
 
     sf::Font font;
-    if ( !font.loadFromFile( "Tourney-Thin.ttf" ) )
+    if ( !font.loadFromFile( "assets/Tourney-Thin.ttf" ) )
         std::cout << "Can't find the font file" << std::endl;
 
     sf::Text deathMessage;
@@ -413,7 +413,7 @@ bool World::display_death_screen(int p1Score, int p2Score) {
     sf::RenderWindow window( sf::VideoMode( X_PIXELS, Y_PIXELS ), "GAME OVER");
 
     sf::Font font;
-    if ( !font.loadFromFile( "Tourney-Thin.ttf" ) )
+    if ( !font.loadFromFile( "assets/Tourney-Thin.ttf" ) )
         std::cout << "Can't find the font file" << std::endl;
 
     sf::Text deathMessage;
@@ -448,7 +448,7 @@ bool World::display_death_screen(int p1Score, int p2Score) {
     while(window.isOpen()) {
         sf::Event event;
         while (window.pollEvent(event)) {
-            sf::Vector2i mousePos = sf::Mouse::getPosition(window);\
+            sf::Vector2i mousePos = sf::Mouse::getPosition(window);
             sf::Vector2f mousePosF(mousePos.x, mousePos.y); 
             switch(event.type) {
                 case sf::Event::Closed:
@@ -483,7 +483,7 @@ void World::display_direction_screen() {
     sf::RenderWindow window( sf::VideoMode( X_PIXELS, Y_PIXELS ), "Directions");
 
     sf::Font font;
-    if ( !font.loadFromFile( "Tourney-Thin.ttf" ) )
+    if ( !font.loadFromFile( "assets/Tourney-Thin.ttf" ) )
         std::cout << "Can't find the font file" << std::endl;
 
     sf::Text headerText;

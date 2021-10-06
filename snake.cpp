@@ -109,8 +109,6 @@ bool Snake::check_for_collisions(){
 }
 
 bool Snake::check_for_collisions(const vector<sf::RectangleShape> snakeTwoBody) {
-    sf::Vector2f snakeOneHeadCoords = body[0].getPosition();
-    sf::Vector2f snakeTwoHeadCoords = snakeTwoBody[0].getPosition();
     for (int i = 0; i < snakeTwoBody.size(); i++)      
         if (body[0].getGlobalBounds().intersects(snakeTwoBody[i].getGlobalBounds()))
             return true;
